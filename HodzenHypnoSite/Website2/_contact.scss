@@ -1,0 +1,65 @@
+.contact {
+  background-color: #0a3962;
+  position: relative;
+  top: 1400px;
+  text-align: center;
+  h1 {
+    font-size: 40px;
+    padding-top: 40px;
+    color: #fff;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  li {
+    flex: 1 1 300px;
+    color: #fff;
+    font-weight: normal;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 45%;
+    margin: auto;
+    font-size: 24px;
+  }
+}
+#contact_text {
+  margin-bottom: -50px;
+  a {
+    color: #fff;
+  }
+}
+
+.SVGIcons {
+  margin-bottom: -120px;
+}
+
+.SVGIcon {
+  width: 50px;
+}
+
+.follow_me {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.social_media {
+  position: relative;
+#social_media{
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-bottom: 60px;
+}
+  .facebook {
+    width: 40px;
+    margin-right: 30px; // Moves both images
+  }
+  .twitter {
+    width: 40px;
+    //background-color: #1da1f3;
+    background-color: #0a3962;
+  }
+}

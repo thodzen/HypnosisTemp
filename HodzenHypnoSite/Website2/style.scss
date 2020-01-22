@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color: #efe2d9;//#1db4cf;
+}
+.container{
+    background-image: url(/images/seashore-under-blue-sky-cropped-fade.png);
+    background-color: #efe2d9;//#1db4cf;
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1{
+    font-family: "Bigshot One", cursive;
+}
+p{
+    font-family: "Raleway", sans-serif;
+}
+h4{
+    font-family: "Raleway", sans-serif;
+}
+
+@import "./navbar";
+@import "./header";
+@import "./about";
+@import "./contact";
