@@ -6,13 +6,22 @@ body{
     background-color: #efe2d9;//#1db4cf;
 }
 .container{
-    background-image: url(/images/seashore-under-blue-sky-cropped-fade.png);
+    background-image: url(/HodzenHypnoSite/images/seashore-under-blue-sky-cropped-fade.png);
     background-color: #efe2d9;//#1db4cf;
     background-size: 1920px 1080px;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 html{
     scroll-behavior: smooth;
+}
+hr{
+    width: 60%;
+    margin: auto;
+    color: #fff;
+    margin-top: -20px;
+    margin-bottom: 35px;
+    opacity: .3;
 }
 h1{
     font-family: "Bigshot One", cursive;
