@@ -1,11 +1,19 @@
-var words = ["test1", "test2", "test3", "test4"];
+var words = ["Stress", "Bad Habits", "Weight Loss", "Smoking", "Sport Performance", "Addictions", "Anxiety", "Drinking", "Self-Esteem", "Grief", "Relaxation", "Sleep", "Phobias", "Trauma", "Gambling", "Behavior", "Depressed Feelings"];
 changeText(0);
 function changeText(i) {
   if (words.length > i) {
     setTimeout(function() {
       document.getElementById("issue").innerHTML = words[i];
-      changeText(++i); //Words with ++i but not i++????
+      changeText(++i); //Works with ++i but not i++????
       //console.log("TEST");
-    }, 1000); // 1 second
+      if (words.length === i)
+      {
+        i=-1;
+        changeText(++i);
+      }
+    }, 2000); // 1 second
   }
-  }
+}
+
+
+
